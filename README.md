@@ -1,5 +1,5 @@
 # Ctypes-Demos
-This is a reference library. This is useful to understand how to import C++ libraries in Python.
+This project is useful to understand how to import C++ libraries in Python.
 
 ### Creating an external file
 
