@@ -1,4 +1,4 @@
-# Ctypes-Demos
+# ctypes-demo
 This repository is useful to understand how to import, and how C++ libraries works in Python.
 It can also be useful to use as a base for your program.
 
