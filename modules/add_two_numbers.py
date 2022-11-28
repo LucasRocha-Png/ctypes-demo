@@ -1,6 +1,6 @@
 """
 This script imports the "add_two_numbers.so" made with "g++ -shared -static -o add_two_numbers.so add_two_numbers.cpp"
-and them, create a module that contains a function that calls the C++ function
+and them, create a function that calls the C++ function
 """
 
 import ctypes
