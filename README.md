@@ -1,5 +1,6 @@
 # Ctypes-Demos
 This project is useful to understand how to import, and how C++ libraries works in Python.
+It can be useful to use as a base to your program.
 
 ## Creating an external file
 
