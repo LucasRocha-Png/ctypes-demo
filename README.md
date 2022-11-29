@@ -53,6 +53,7 @@ add_two_numbers(20,30)
 
 
 # Bases to use
+This bases is useful to understand propelly how ctypes works.
 ## number_operations.py
 ### add_two_int
 Sums two int numbers
