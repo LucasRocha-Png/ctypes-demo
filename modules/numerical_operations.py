@@ -2,11 +2,9 @@
 This script imports the "numerical_operations.so" file, compilled with the command 
 "g++ -shared -static -o numerical_operations.so numerical_operations.cpp" at numerical_operations folder,
 and them, create a function that calls the C++ functions.
+To create a .so file you must have MinGW.
 
-To create a .so file must have MinGW.
-
-Declares:
-
+This file declares the following functions:
 add_two_int
 add_two_float
 add_two_double
