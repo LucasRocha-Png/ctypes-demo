@@ -1,5 +1,5 @@
-# Ctypes-Demos
-This repository is useful for understanding how to import, and how C++ libraries works in Python.
+# ctypes-demo
+This repository is useful to understand how to import, and how C++ libraries works in Python.
 It can also be useful to use as a base for your program.
 
 ## Creating an C++ function
@@ -31,12 +31,12 @@ P.S.: Make sure you have MinGW installed. If you get an error, check if you have
 import ctypes
 import os
 
-#Take the path from the file to avoid problems
+#Take the path of the file to avoid problems
 archive_folder = os.path.dirname(__file__)
 
-#Imports the external file as a variable
+#Imports the external file and assigns it to a variable
 file_name = ""
-library = ctypes.CDLL(f"{archive_folder}\\{file_name}.so") #Directory
+library = ctypes.CDLL(f"{archive_folder}\\{file_name}.so") #Put de directory of the external file
 
 #Import the function from the external file
 add_two_numbers = library.add_two_numbers #library.{function you made}
@@ -52,7 +52,8 @@ add_two_numbers(20,30)
 
 
 
-# Bases
+# Bases to use
+These bases are useful to understand how to work with ctypes and with all types of C language values.
 ## number_operations.py
 ### add_two_int
 Sums two int numbers
