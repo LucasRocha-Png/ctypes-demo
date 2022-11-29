@@ -52,7 +52,7 @@ add_two_numbers(20,30)
 
 
 
-# Bases
+# Bases to use
 ## number_operations.py
 ### add_two_int
 Sums two int numbers
