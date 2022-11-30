@@ -1,0 +1,1 @@
+int sum_list(int *list, int size_list);

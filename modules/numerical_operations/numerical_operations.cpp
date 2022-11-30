@@ -1,6 +1,6 @@
+
 extern "C" {
 	#include "numerical_operations.h"
-
 	int add_two_int(int a, int b){
 		return a + b;
 	}

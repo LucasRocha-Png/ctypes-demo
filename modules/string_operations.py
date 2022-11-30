@@ -1,6 +1,6 @@
 """
 This script imports the "string_operations.so" file, compilled with the command 
-"g++ -shared -static -o string_operations.so string_operations.cpp" at string_operations folder,
+"g++ -fPIC -shared -static -o string_operations.so string_operations.cpp" at string_operations folder,
 and them, create a function that calls the C++ functions.
 To create a .so file you must have MinGW.
 
