@@ -67,3 +67,7 @@ Sum two double numbers
 ## string_operations.py
 ### reverse_string
 Return a reversed string
+
+## array_operations.py
+### sum_list
+Sums a list
