@@ -52,22 +52,23 @@ add_two_numbers(20,30)
 
 
 
-# Bases to use
+# Bases
 These bases are useful to understand how to work with ctypes and with all kind off types of C language.
+
+Each file contains functions that explain in detail how to work with the current type.
+For exemple, number_operations.py contains "sum_two_int, sum_two_floats, sum_two_double" functions, that explain in detailed how to work with numerical types. In array_operations.py contains "sum_list" function, that explains in detailed how to work with arrays...
+
 ## number_operations.py
-### add_two_int
-Sums two int numbers
-
+Explains how to work with numerical types.
+### sum_two_ints
 ### sum_two_floats
-Sum two float numbers
-
-### sum_two_double
-Sum two double numbers
+### sum_two_doubles
 
 ## string_operations.py
+Explains how to work with an string.
 ### reverse_string
-Return a reversed string
 
 ## array_operations.py
+Explains how to work with a array.
 ### sum_list
-Sums a list
+
