@@ -53,7 +53,7 @@ add_two_numbers(20,30)
 
 
 # Bases to use
-These bases are useful to understand how to work with ctypes and with all types of C language values.
+These bases are useful to understand how to work with ctypes and with all kind off types of C language.
 ## number_operations.py
 ### add_two_int
 Sums two int numbers
@@ -63,3 +63,7 @@ Sum two float numbers
 
 ### sum_two_double
 Sum two double numbers
+
+## string_operations.py
+### reverse_string
+Return a reversed string
