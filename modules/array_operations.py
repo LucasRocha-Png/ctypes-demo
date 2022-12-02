@@ -31,7 +31,7 @@ library = ctypes.CDLL(f"{archive_folder}\\array_operations\\array_operations.so"
 sum_list_ = library.sum_list
 
 #The input arguments types will be a pointer that points to a int list and a int (in ctypes its called ctypes.POINTER(ctypes.c_int) and c_int)
-sum_list_.argtypes = (ctypes.POINTER(ctypes.c_int), ctypes.c_int)
+sum_list_.argtypes = [ctypes.POINTER(ctypes.c_int), ctypes.c_int]
 
 #The output value type will be a int (in ctypes is called c_int)
 sum_list_.restype = ctypes.c_int
@@ -49,6 +49,37 @@ def sum_list(array):
     
 #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
+
+#REVERSED LIST -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+reversed_list_ = library.reversed_list
+reversed_list_.argstype = [ctypes.POINTER(ctypes.c_char_p), ctypes.c_int]
+reversed_list_.restype = ctypes.POINTER(ctypes.c_char_p)
+
+def reversed_list(array):
+    global reversed_list_
+
+    for i, value in enumerate(array):
+        array[i] = str.encode(value)
+
+    values = (ctypes.c_char_p * len(array))(*array)
+    
+    result = reversed_list_(values, len(array))
+    valores = []
+    
+
+    for value in result:
+        if value != None:
+            valores.append(str(value, "UTF-8"))   
+        if len(array) == len(valores):
+            return valores
+
+
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+
+
+
 if __name__ == "__main__":
-    print(sum_list([33, 20]))
+    print(reversed_list(["Ola", "eu", "me", "chamo", "Lucas"]))
    

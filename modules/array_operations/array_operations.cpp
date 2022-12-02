@@ -1,3 +1,5 @@
+#include <iostream>
+#include <typeinfo>
 
 extern "C"{
 	#include "array_operations.h"
@@ -9,4 +11,17 @@ extern "C"{
 		}
 		return sum;
 	}
+
+	char** reversed_list(char** list, int size_list){
+
+		for (int i = 0, j = size_list - 1; i < size_list/2; i++, j--)  
+		{     
+			char* temp = list[i];  
+			list[i] = list[j];  
+			list[j] = temp;  
+		}  
+
+		return list;
+	}
+	
 }
