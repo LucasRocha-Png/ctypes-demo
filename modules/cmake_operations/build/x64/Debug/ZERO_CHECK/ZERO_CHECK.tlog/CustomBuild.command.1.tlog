@@ -1,0 +1,10 @@
+^C:\USERS\LUCAS\ONEDRIVE\ÁREA DE TRABALHO\PROJETO\GITHUB PROJECTS\CTYPES-DEMOS\MODULES\CMAKE_OPERATIONS\BUILD\CMAKEFILES\712601D669FA419AAB60055BC1E03ADB\GENERATE.STAMP.RULE
+setlocal
+C:\cmake-3.24.1-windows-x86_64\bin\cmake.exe "-SC:/Users/lucas/OneDrive/Área de Trabalho/Projeto/GITHUB PROJECTS/Ctypes-Demos/modules/cmake_operations" "-BC:/Users/lucas/OneDrive/Área de Trabalho/Projeto/GITHUB PROJECTS/Ctypes-Demos/modules/cmake_operations/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/lucas/OneDrive/Área de Trabalho/Projeto/GITHUB PROJECTS/Ctypes-Demos/modules/cmake_operations/build/cmake-tests.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
