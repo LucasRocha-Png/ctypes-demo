@@ -24,6 +24,9 @@ extern "C"
 g++ -shared -static -o <destiny_file>.so <c_file>.cpp
 ```
 P.S.: Make sure you have MinGW installed. If you get an error, check if you have the 64bits version installed.
+#### Why to compile using -shared and -static at the same time???
+If we used only -shared, the library wouldn't be able to call the "include" functions we set  
+
 
 ## Importing an external file in Python 
 ``` python
