@@ -177,6 +177,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{5A4CAF37-C936-3FED-A48E-336D0C31306B}</Project>
       <Name>cmake-tests</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\lucas\OneDrive\Área de Trabalho\Projeto\GITHUB PROJECTS\Ctypes-Demos\modules\cmake_operations\build\print_vector\print_vector.vcxproj">
+      <Project>{4F13BD51-34F0-3CC8-9F4E-8501A16C30F8}</Project>
+      <Name>print_vector</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

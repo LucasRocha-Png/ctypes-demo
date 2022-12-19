@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\lucas\OneDrive\Área de Trabalho\Projeto\GITHUB PROJECTS\Ctypes-Demos\modules\cmake_operations\print_vector\print_vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\lucas\OneDrive\Área de Trabalho\Projeto\GITHUB PROJECTS\Ctypes-Demos\modules\cmake_operations\print_vector\print_vector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\lucas\OneDrive\Área de Trabalho\Projeto\GITHUB PROJECTS\Ctypes-Demos\modules\cmake_operations\print_vector\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6E6393F5-FCDD-35BA-9EE0-734B8CC19027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B778E9D5-BA1C-392C-98C6-4C73B55A8D89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
