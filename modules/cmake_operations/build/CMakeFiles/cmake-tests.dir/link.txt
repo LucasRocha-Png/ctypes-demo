@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall -Werror -std=c++17 -shared -Wl,-soname,libcmake-tests.so -o libcmake-tests.so CMakeFiles/cmake-tests.dir/main.cpp.o  print_vector/libprint_vector.a 

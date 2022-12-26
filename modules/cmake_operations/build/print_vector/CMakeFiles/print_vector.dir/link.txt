@@ -1,0 +1,2 @@
+/usr/bin/ar qc libprint_vector.a CMakeFiles/print_vector.dir/print_vector.cpp.o
+/usr/bin/ranlib libprint_vector.a

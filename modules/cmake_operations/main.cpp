@@ -12,7 +12,7 @@ To build the main file uses "cmake ." and "cmake --build ." in build folder
 
 extern "C"{
 
-	__declspec(dllexport) void  __cdecl hello(){
+	__attribute__((__visibility__("default"))) void hello(){
 		std::cout << "Hello World" << "\n";
 		
 		std::vector<int> list = {1,2,3,4,5};

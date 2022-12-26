@@ -15,7 +15,7 @@ import os
 
 archive_folder = os.path.dirname(__file__)
 
-library = ctypes.CDLL(f"{archive_folder}\\cmake_operations\\build\\Debug\\cmake-tests.dll")
+library = ctypes.CDLL(f"cmake_operations/build/libcmake-tests.so")
 
 #Print Hello
 library.hello()

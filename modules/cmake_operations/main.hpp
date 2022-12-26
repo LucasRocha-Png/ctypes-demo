@@ -1,3 +1,3 @@
 extern "C"{
-	__declspec(dllexport) void  __cdecl hello();
+	__attribute__((__visibility__("default"))) void hello();
 }
